@@ -4,7 +4,7 @@ const Breed = require("./Breed");
 const Fact = require("./Fact");
 const router = express.Router();
 const mongoose = require("mongoose");
-const user = require("./user");
+const user = require("./User");
 
 const connectEnsureLogin = require("connect-ensure-login");
 const passport = require("passport");
