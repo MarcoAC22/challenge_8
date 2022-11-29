@@ -37,7 +37,7 @@ passport.deserializeUser(UserDetails.deserializeUser());
 
 app.use(routes);
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 8080;
 
 // Set up express server
 const server = app.listen(PORT, () => {
